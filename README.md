@@ -40,3 +40,6 @@
     <input type="text" id="variableInput">
     <button onclick="addVariable()">Agregar</button>
     <button onclick="hideDialog()">Cancelar</button>
+</div>
+<div id="mascotas"></div>
+<script>
