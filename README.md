@@ -28,3 +28,15 @@
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 999;
     }
+    </style>
+</head>
+<body>
+
+<h1>BIENVENIDO A LA ESTETICA ANIMAL DEL EQUIPO 5</h1>
+<h2>Ingrese el nombre de su mascota para mostrarla!!</h2>
+<button onclick="showDialog()">Ingresar nombre de mascota</button>
+<div id="dialog">
+    <h3>Ingresa el nombre de tu mascota</h4>
+    <input type="text" id="variableInput">
+    <button onclick="addVariable()">Agregar</button>
+    <button onclick="hideDialog()">Cancelar</button>
